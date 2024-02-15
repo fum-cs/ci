@@ -1,174 +1,59 @@
-# just-the-docs-template
+# Computational Intelligence
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+Welcome to the **Computational Intelligence** course! In this exciting journey, we'll delve into the fascinating world of intelligent systems, where machines learn, adapt, and make decisions based on data. Let's explore the key topics that await you.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+### Topics Covered
 
-More specifically, the created site:
+Our course will explore three fundamental areas of Computational Intelligence:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
 
-To get started with creating a site, simply:
+1. [**Neural Networks**](https://fum-cs.github.io/neural-networks):
+   - Inspired by biological nervous systems, neural networks play a crucial role in transforming input to output.
+   - Types of neural networks include feed-forward networks, self-organizing maps, recurrent networks, ART and Hopfield neural networks.
+   - Our research challenge: How do we effectively train neural networks?
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+2. **Evolutionary Algorithms (EAs)**:
+   - EAs aim to find plans that optimize a given fitness function.
+   - Examples include solving the traveling salesman problem using genetic algorithms.
+   - We'll explore nature-inspired optimization techniques, such as genetic algorithms, particle swarm optimization, bee colony, and artificial ants.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+3. **Fuzzy Logic and Fuzzy Set Theory**:
+   - Fuzzy logic allows us to represent "fuzzy" knowledge, which is less sensitive to errors or noise.
+   - Applications include building control systems and calculating overall quality (fitness) in various scenarios.
 
-After completing the creation of your new site on GitHub, update it as needed:
+### Prerequisites
 
-## Replace the content of the template pages
+- **Basic Knowledge**: You should have a solid understanding of artificial intelligence concepts.
+- **Mathematics**: Advanced topics may require strong mathematical foundations.
 
-Update the following files to your own content:
+### References
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+- [Pythorch Workshop](https://mamintoosi.github.io/slides/topics/DL-HSU/DeepLearning-Workshop-ESLA2022.html)
+- [Meta Heuristic Algorithms](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)(Draft)
+- [Some Published Papers](https://fumcs.github.io/publications/)
+- Haykin, S. S. (2009). Neural Networks and Learning Machines (3rd ed.). Prentice Hall.[PDF](https://dai.fmph.uniba.sk/courses/NN/haykin.neural-networks.3ed.2009.pdf)
+-  طاهری، س.م. (1375)، آشنایی با نظریه مجموعه­ های فازی (تالیف)،  انتشارات  جهاد  دانشگاهی دانشگاه فردوسی مشهد (چاپ دوم: 1378)
+- Zimmermann, H.-J. (2001). Fuzzy Set Theory-and Its Applications, Fourth Edition. Prentice Hall. [PDF](https://kashanu.ac.ir/Files/Content/H_-J_%20Zimmermann%20%20(auth_)%20Fuzzy%20Set%20Theory%E2%80%94and%20Its%20Applications%20%202001.pdf)
 
-## Changing the version of the theme and/or Jekyll
 
-Simply edit the relevant line(s) in the `Gemfile`.
+## Grading:
+* Homework – 40% <br>
+* Midterm – 20% <br>
+— Will consist of mathematical problems and/or programming assignments.
+* Seminars - 10%
+* Final – 30%
 
-## Adding a plugin
+## Academic Honor Code:
+Honesty and integrity are vital elements of the academic works. All your submitted assignments must be entirely your own (or your own group's).
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+We will follow the standard of Faculty of Mathematical Sciences approach: 
+* You should not use code of others or be looking at code of others when you write your own: You can talk to people but have to write your own solution/code
+*  You can talk to others about the algorithm(s) to be used to solve a homework problem; as long as you then mention their name(s) on the work you submit
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+## Questions?
+I will be having office hours for this course on Monday (10:00 AM--11:30 AM). If this is not convenient, email me at m.amintoosi@um.ac.ir, talk to me after class or [schedule an appointment via Calendly](https://calendly.com/m-amintoosi/30min).
 
-- Add the following to your site's `Gemfile`:
+## Our Slack workspace
+Come and [join our Slack](https://join.slack.com/t/fum-cs/shared_invite/zt-1zntzuw2t-JOWbsyQdGASNz~40AhWy_Q) group to engage in course discussions.
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
-
-- And add the following to your site's `_config.yml`:
-
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
-
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
-
-## Publishing your site on GitHub Pages
-
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
-
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
-
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
-
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
-
-2.  Push your updated `_config.yml` to your site on GitHub.
-
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
-
-## Building and previewing your site locally
-
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
-
-2.  Run `bundle install`.
-
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
-
-    The built site is stored in the directory `_site`.
-
-## Publishing your built site on a different platform
-
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "docs/_site/"
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+---

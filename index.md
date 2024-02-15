@@ -1,35 +1,67 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# About
+{:.no_toc}
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## Table of contents
+{: .no_toc .text-delta }
 
-More specifically, the created site:
+1. TOC
+{:toc}
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+---
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+# Computational Intelligence
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+Welcome to the **Computational Intelligence** course! In this exciting journey, we'll delve into the fascinating world of intelligent systems, where machines learn, adapt, and make decisions based on data. Let's explore the key topics that await you.
 
-To get started with creating a site, simply:
+### Topics Covered
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+Our course will explore three fundamental areas of Computational Intelligence:
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
 
-----
+1. [**Neural Networks**](https://fum-cs.github.io/neural-networks):
+   - Inspired by biological nervous systems, neural networks play a crucial role in transforming input to output.
+   - Types of neural networks include feed-forward networks, self-organizing maps, recurrent networks, ART and Hopfield neural networks.
+   - Our research challenge: How do we effectively train neural networks?
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+2. **Evolutionary Algorithms (EAs)**:
+   - EAs aim to find plans that optimize a given fitness function.
+   - Examples include solving the traveling salesman problem using genetic algorithms.
+   - We'll explore nature-inspired optimization techniques, such as genetic algorithms, particle swarm optimization, bee colony, and artificial ants.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+3. **Fuzzy Logic and Fuzzy Set Theory**:
+   - Fuzzy logic allows us to represent "fuzzy" knowledge, which is less sensitive to errors or noise.
+   - Applications include building control systems and calculating overall quality (fitness) in various scenarios.
+
+### Prerequisites
+
+- **Basic Knowledge**: You should have a solid understanding of artificial intelligence concepts.
+- **Mathematics**: Advanced topics may require strong mathematical foundations.
+
+
+## Grading:
+* Homework – 40% <br>
+* Midterm – 20% <br>
+— Will consist of mathematical problems and/or programming assignments.
+* Seminars - 10%
+* Final – 30%
+
+## Academic Honor Code:
+Honesty and integrity are vital elements of the academic works. All your submitted assignments must be entirely your own (or your own group's).
+
+We will follow the standard of Faculty of Mathematical Sciences approach: 
+* You should not use code of others or be looking at code of others when you write your own: You can talk to people but have to write your own solution/code
+*  You can talk to others about the algorithm(s) to be used to solve a homework problem; as long as you then mention their name(s) on the work you submit
+
+## Questions?
+I will be having office hours for this course on Monday (10:00 AM--11:30 AM). If this is not convenient, email me at m.amintoosi@um.ac.ir, talk to me after class or [schedule an appointment via Calendly](https://calendly.com/m-amintoosi/30min).
+
+## Our Slack workspace
+Come and [join our Slack](https://join.slack.com/t/fum-cs/shared_invite/zt-1zntzuw2t-JOWbsyQdGASNz~40AhWy_Q) group to engage in course discussions.
+
+---
