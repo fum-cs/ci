@@ -4,11 +4,12 @@ title: TBA
 description: Listing of course modules and topics.
 mathjax: true
 nav_order: 20
+tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
 # TBA
 
-## Evolutionary Algorithms 
+## Evolutionary Algorithms
 
 - [Meta Heuristic Algorithms](https://www.dropbox.com/s/8bnxpzvfgiwma0k/combopt-PSO-20160514.pdf?dl=0)(Draft)
 - [Some Published Papers](https://fumcs.github.io/publications/)
