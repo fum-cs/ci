@@ -7,7 +7,7 @@ nav_order: 18
 tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
-# 
+# Some other Computational Intelligence Courses
 
 * [Computational Intelligence Course](https://github.com/squillero/computational-intelligence) at [Politecnico di Torino](https://www.polito.it/), by [Giovanni Squillero](https://squillero.github.io/). Covers the following problems and projects:
     - Set Covering
