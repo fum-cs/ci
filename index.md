@@ -2,9 +2,10 @@
 title: Home
 layout: home
 nav_order: 1
+tags: [Computer Science Dept., Ferdowsi University of Mashhad, علوم کامپیوتر دانشگاه فردوسی مشهد]
 ---
 
-# About
+<!-- # About
 {:.no_toc}
 
 ## Table of contents
@@ -13,7 +14,9 @@ nav_order: 1
 1. TOC
 {:toc}
 
----
+--- -->
+
+# Course Removed Due to Insufficient Enrollment
 
 # Computational Intelligence
 
@@ -24,7 +27,7 @@ Welcome to the **Computational Intelligence** course! In this exciting journey, 
 Our course will explore three fundamental areas of Computational Intelligence:
 
 
-1. [**Neural Networks**](https://fum-cs.github.io/neural-networks):
+1. **Neural Networks**:
    - Inspired by biological nervous systems, neural networks play a crucial role in transforming input to output.
    - Types of neural networks include feed-forward networks, self-organizing maps, recurrent networks, ART and Hopfield neural networks.
    - Our research challenge: How do we effectively train neural networks?

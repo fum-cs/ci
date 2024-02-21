@@ -1,3 +1,5 @@
+# Course Removed Due to Insufficient Enrollment
+
 # Computational Intelligence
 
 Welcome to the **Computational Intelligence** course! In this exciting journey, we'll delve into the fascinating world of intelligent systems, where machines learn, adapt, and make decisions based on data. Let's explore the key topics that await you.
@@ -7,7 +9,7 @@ Welcome to the **Computational Intelligence** course! In this exciting journey, 
 Our course will explore three fundamental areas of Computational Intelligence:
 
 
-1. [**Neural Networks**](https://fum-cs.github.io/neural-networks):
+1. **Neural Networks**:
    - Inspired by biological nervous systems, neural networks play a crucial role in transforming input to output.
    - Types of neural networks include feed-forward networks, self-organizing maps, recurrent networks, ART and Hopfield neural networks.
    - Our research challenge: How do we effectively train neural networks?
@@ -51,7 +53,7 @@ We will follow the standard of Faculty of Mathematical Sciences approach:
 *  You can talk to others about the algorithm(s) to be used to solve a homework problem; as long as you then mention their name(s) on the work you submit
 
 ## Questions?
-I will be having office hours for this course on Monday (10:00 AM--11:30 AM). If this is not convenient, email me at m.amintoosi@um.ac.ir, talk to me after class or [schedule an appointment via Calendly](https://calendly.com/m-amintoosi/30min).
+I will be having office hours for this course on Monday (10:00 AM--11:30 AM). If this is not convenient, email me at m.amintoosi@um.ac.ir, talk to me after class or [schedule an appointment via Calendly](https://calendly.com/m-amintoosi/30min).
 
 ## Our Slack workspace
 Come and [join our Slack](https://join.slack.com/t/fum-cs/shared_invite/zt-1zntzuw2t-JOWbsyQdGASNz~40AhWy_Q) group to engage in course discussions.
